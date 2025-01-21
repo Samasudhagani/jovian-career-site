@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <title> My First Web Page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+    
+        <body>
+            <div id="navbar">
+                <img id="logo1" alt="jovian logo" src="https://jovian.com/jovian_logo.svg" height="30px"/>
+            </div>
+            <div id="sandeep"></div>
+            
+        <img id="career-growth" src="career growth.jpg" alt="career-growth" height="240" >
+            <h1>
+                about Jovian
+            </h1>
+            <div id="about">
+                <div id="description">
+                    
+                    <p style="margin-top: 0px;">
+                         At jovian, we're on a mission to build the world's most highly reputed technical university, and  we're building  completely online. we offer  several beginner friendly courses that are taken  by 300,000+ registered classes</p>
+                    <p>
+                        we also offer 2 additional courses
+                    </p>
+                    <ol>
+                        <li>
+                            <a href ="https://jovian.com/learn/data-structures-and-algorithms-in-python">
+                            data structures and algorithms
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://jovian.com/learn/sql-and-business-intelligence">
+                            SQL and Bussiness intelligence
+                        </a>
+                            </li>
+                        </li>
+                </div>
+                <div id="teams">  
+                    <img id= "logo2"src="logo.jpg" alt="logo" height="200">
+                </div>
+                
+                
+                
+            </div>
+            <div id="des">
+            
+                    <h2>
+                        Job opportunities
+                    </h2>
+                </div>
+                <table id="jobs-table" >
+                    <tr class="header-row">
+                        <th rowspan="2"> Job title</th>
+                        <th colspan="2"> Location</th>
+                        <th rowspan="2"> Salary</th>
+                        <th rowspan="2"> Posted on</th>
+                        </tr>
+                        <tr class="header-row">
+                            <th>city</th>
+                            <th> country</th>
+                        </tr>
+                        <tr  class="data-row">
+                            <td> Fronted Developer</td>
+                            <td> Texas</td>
+                            <td>USA</td>
+                            <td> $8000</td>
+                            <td> Dec 5, 2024</td>
+                        
+                    </tr>
+                    <tr class="data-row">
+                        <td> Backened Developer</td>
+                            <td> Indiana</td>
+                            <td>USA</td>
+                            <td> $7000</td>
+                            <td> Nov 28, 2024</td>
+                    </tr>
+                    <tr class="data-row">
+                        <td> Python</td>
+                            <td> chicago</td>
+                            <td>USA</td>
+                            <td> $9500</td>
+                            <td> Jan 4, 2025</td>
+                    </tr>
+                    <tr class="data-row">
+                        <td> AI</td>
+                            <td colspan="2"> Remote</td>
+                            <td> $10,000</td>
+                            <td> Jan 10, 2025</td>
+                    </tr>
+                </table>
+                
+                <div id="application">
+                    <h2> Submit Your Application</h2>
+                    
+                    
+                    <form id="application-form" 
+                    action="https://formbold.com/s/35keQ"
+                    method="POST"
+                    enctype="multipart/form-data">
+                        
+                        <div class="form-group">
+                            <label for="name"> Full Name</label><br>
+                            <input type="text" id="name" name="name" required placeholder=" samdgbd">
+                        </div>
+                        <div class="form-group">
+                            <label for=" email"> Email</label><br>
+                            <input type="email" id="mailid" name="email address" required placeholder=" abscd@eg.com">
+                        </div>
+                        <div class="form-group">
+                            <label for=" phone"> Contact</label><br>
+                            <input type="phone" id="phone" name="phone" required  placeholder=" +1573-276-2383">
+                        </div>
+                        <div class="form-group">
+                            <label for="dob"> Date of Birth</label><br>
+                            <input type="date" id="dob" name="dob" required>
+                        </div>
+                        <div class="form-group">
+                            <label for=" position"> Positions opened for</label> <br>
+                            <select id="position" name="position applied" required>
+                                <option value=""> Select</option>
+                                <option value="frontend developer"> Frontend Developer</option>
+                                <option value="backend developer"> BackendDeveloper</option>
+                                <option value="python"> Python</option>
+                                <option value="ai"> AI</option>
+                            </select>  
+                        </div>
+                        <div class="form-group">
+                            <label for="file-input"> Upload resume</label> <br>
+                            <input type="file" id="file" name="file" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="cover letter"> Cover Letter</label> <br>
+                            <textarea id="coverletter" name="cover letter" rows="5" requires placeholder="Explain what makes you suitable for the job..."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="terms">
+                            <input type="checkbox" id="terms" name="terms" required >
+                            I agree to the terms and conditions
+                        </label>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Submit Application">
+                        </div>
+                     
+                     
+                    </form>
+                    
+                </div>
+                
+            <div id="footer">
+                <ul id="footer-links">
+                    <li >
+                        <a href="https://jovian.com/" target="blank">
+                        courses
+                    </a>
+                    </li >
+                    <li>
+                        <a href="https://jovian.com/" target="blank">
+                        programs
+                    </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/results?search_query=jovian" target="blank"> 
+                        youtube
+                        </a>
+                        </li>
+                     
+                </ul>
+                 
+            
+             
+           <span id="copyright">
+            ©2023, jovian
+           </span>
+        </div>
+    </div>
+        </body>
+    
+   
+</html>
